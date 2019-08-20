@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: #e9ebee;
+}
+
+.navbar-section {
+  height: 40px;
+  width: 100%;
+  background: #4267b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.navbar-section a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+.profile-section {
+  background: white;
+  border: 1px solid grey;
+}
+.title-profile {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  background: #f5f6f7;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.profile-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  padding: 5px;
+  border: 2px solid black;
+}
+.profile-section .data-profile {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.profile-section .data-profile li {
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+}
+.about-section {
+  background: white;
+  border: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.about-section .story {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 200;
+}
+.job-section {
+  padding-top: 15px;
+}
+
+.job-section .col-10 p {
+  font-size: 12px;
+  color: grey;
+}
+
+.job-section .col-2 img {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+hr {
+  margin-top: -2px;
+}
+
+.skill-section {
+  margin: 15px;
+}
+.skill-section .progress {
+  width: 100%;
+  margin-bottom: 10px;
+}
